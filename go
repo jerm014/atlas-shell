@@ -1,5 +1,4 @@
-#!/bin/bash
-echo on
+#!/bin/bash -v
 echo -e '#!/bin/bash\n$1' > $2
 chmod 755 $2
 git add --all
