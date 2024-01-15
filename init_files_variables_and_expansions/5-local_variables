@@ -1,4 +1,2 @@
 #!/bin/bash
-echo -e "$(printenv)
-$(set)
-$(declare -F)"
+echo -e "$(printenv)\n$(set)\n$(declare -F)"
