@@ -2,5 +2,6 @@
 # comment goes here.
 for i in {1..10}
 do 
-	echo "Best School";
+	echo "Best School"
+	echo $i > nul
 done
