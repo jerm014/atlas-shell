@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 # comment goes here.
 ls /root
-echo "git.sh"
-cat /root/checker/git.sh
+#betty
+#checker
+#checker_files
+#checker_files_repo
+#checker_functions
+#student_repo
+ls /root/checker_files
+
+#cat /root/checker/git.sh
