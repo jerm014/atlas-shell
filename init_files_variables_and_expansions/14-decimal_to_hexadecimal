@@ -1,3 +1,2 @@
 #!/bin/bash
-printf '%.2x
-' 16
+printf '%.2x\n' 16
