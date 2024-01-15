@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # 11. Tell the story of passwd
-while;
+cat script
+while true;
 do
 	echo;
 done
