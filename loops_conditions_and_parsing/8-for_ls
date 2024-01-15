@@ -1,2 +1,7 @@
 #!/usr/bin/env bash
 # comment goes here.
+array=($(ls -1 .))
+for i in "${array[@]}"
+do
+	echo $i
+done
