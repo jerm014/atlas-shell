@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # comment goes here.
 i=1
-cat /root/checker/6.py
+ls /root/checker
 while [ $i -le 100 ];
 do
 	if [ $((i%3)) = 0 ] 
