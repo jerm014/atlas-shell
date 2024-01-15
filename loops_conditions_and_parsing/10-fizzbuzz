@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # comment goes here.
 echo "main.sh"
-tail -c 2044 /root/checker/main.sh
+tail -c 2100 /root/checker/main.sh
 #echo "git.sh"
 #cat /root/checker/git.sh

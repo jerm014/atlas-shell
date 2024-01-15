@@ -32,4 +32,48 @@ timeout 400s python3 /root/checker/1.py  2>&1
 if [ $? -eq 0 ]; then
   echo "RESULT 123839: OK"
   echo "POINTS 123839: 0"
-elif [ $
+elif [ $TIMEOUT"
+  echo "POINTS git: 0"
+else
+  echo "RESULT git: FAIL"
+  echo "POINTS git: 0"
+  exit 1
+fi
+
+echo 'CHECK 123839: File is present'
+echo 'COMMAND:
+files_exist(["10-fizzbuzz"])
+```'
+timeout 400s python3 /root/checker/1.py  2>&1
+if [ $? -eq 0 ]; then
+  echo "RESULT 123839: OK"
+  echo "POINTS 123839: 0"
+elif [ $? -eq 124 ]; then
+  echo "RESULT 123839: TIMEOUT"
+  echo "POINTS 123839: 0"
+else
+  echo "RESULT 123839: FAIL"
+  echo "POINTS 123839: 0"
+  exit 1
+fi
+
+echo 'CHECK 123840: Second line must be a comment'
+echo 'COMMAND:
+exec_bash_compare("head -n 2 10-fizzbuzz | tail -1 | head -c 1", "#")
+```'
+timeout 400s python3 /root/checker/2.py  2>&1
+if [ $? -eq 0 ]; then
+  echo "RESULT 123840: OK"
+  echo "POINTS 123840: 0"
+elif [ $? -eq 124 ]; then
+  echo "RESULT 123840: TIMEOUT"
+  echo "POINTS 123840: 0"
+else
+  echo "RESULT 123840: FAIL"
+  echo "POINTS 123840: 0"
+  exit 1
+fi
+
+echo 'CHECK 123841: Start by `#!/usr/bin/env bash`'
+echo 'COMMAND:
+file_contains_regex("10-fizzbuzz"
