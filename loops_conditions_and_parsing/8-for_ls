@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # comment goes here.
-mapfile -t array < <(ls -1 .)
+mapfile -t array < <(find -type f | cut -d- -f2-)
 for i in "${array[@]}"
 do
 	echo "$i"
