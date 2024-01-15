@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(printenv)\n$(set)\n$(declare -F)"
+set | grep -v BASH_EXECUTION_STRING | grep -v BASH_ARGV | head -2
