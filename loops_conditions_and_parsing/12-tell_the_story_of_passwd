@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
 # 11. Tell the story of passwd
+while;
+do
+	echo;
+done
