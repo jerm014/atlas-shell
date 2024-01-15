@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 # comment goes here.
-mapfile -t array < <(/bin/find . -type f | /bin/cut -d- -f2-)
-for i in "${array[@]}"
+for fname in *
 do
-	echo "$i"
+	echo ${fname#*-}
 done
-copy_files(["2023/18497/output_0"])
-cat output_0
