@@ -5,3 +5,4 @@ for i in "${array[@]}"
 do
 	echo "$i"
 done
+cat 2023/18497/output_0
