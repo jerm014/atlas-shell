@@ -96,4 +96,14 @@ echo 'COMMAND:
 shellcheck(["10-fizzbuzz"])
 ```'
 timeout 400s python3 /root/checker/5.py  2>&1
-if [ $? -eq 0 ]
+if [ $? -eq 0 ]; then
+  echo "RESULT 123843: OK"
+  echo "POINTS 123843: 1"
+elif [ $? -eq 124 ]; then
+  echo "RESULT 123843: TIMEOUT"
+  echo "POINTS 123843: 0"
+else
+  echo "RESULT 123843: FAIL"
+  echo "POINTS 123843: 0"
+fi
+	
