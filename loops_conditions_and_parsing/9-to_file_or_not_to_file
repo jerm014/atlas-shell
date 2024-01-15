@@ -12,9 +12,9 @@ then
 # if the file is not empty: school file is not empty
   if [ -s $file ] 
   then
-    echo "$file is not empty"
+    echo "$file file is not empty"
   else
-    echo "$file is empty"
+    echo "$file file is empty"
   fi
 
 # if the file is a regular file: school is a regular file
