@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # comment goes here.
-
+ls /root
 echo "git.sh"
 cat /root/checker/git.sh
