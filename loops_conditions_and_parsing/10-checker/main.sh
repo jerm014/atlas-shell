@@ -58,3 +58,42 @@ else
   exit 1
 fi
 
+echo 'CHECK 123841: Start by `#!/usr/bin/env bash`'
+echo 'COMMAND:
+file_contains_regex("10-fizzbuzz", patterns=["^#!/usr/bin/env bash"])
+```'
+timeout 400s python3 /root/checker/3.py  2>&1
+if [ $? -eq 0 ]; then
+  echo "RESULT 123841: OK"
+  echo "POINTS 123841: 0"
+elif [ $? -eq 124 ]; then
+  echo "RESULT 123841: TIMEOUT"
+  echo "POINTS 123841: 0"
+else
+  echo "RESULT 123841: FAIL"
+  echo "POINTS 123841: 0"
+  exit 1
+fi
+
+echo 'CHECK 123842: Correct output'
+echo 'COMMAND:
+compare("./10-fizzbuzz", "2023/18503/output_0")
+```'
+timeout 400s python3 /root/checker/4.py  2>&1
+if [ $? -eq 0 ]; then
+  echo "RESULT 123842: OK"
+  echo "POINTS 123842: 5"
+elif [ $? -eq 124 ]; then
+  echo "RESULT 123842: TIMEOUT"
+  echo "POINTS 123842: 0"
+else
+  echo "RESULT 123842: FAIL"
+  echo "POINTS 123842: 0"
+fi
+
+echo 'CHECK 123843: Shellchecker'
+echo 'COMMAND:
+shellcheck(["10-fizzbuzz"])
+```'
+timeout 400s python3 /root/checker/5.py  2>&1
+if [ $? -eq 0 ]
