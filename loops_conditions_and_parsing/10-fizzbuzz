@@ -1,24 +1,16 @@
 #!/usr/bin/env bash
 # comment goes here.
-i=1
-ls /root/checker
-while [ $i -le 100 ];
-do
-	if [ $((i%3)) = 0 ] 
-	then
-		if [ $((i%5)) = 0 ]
-		then
-	  	   echo "-FizzBuzz"
-		else
-		   echo "Fizz"
-		fi
-	else
-	    if [ $((i%5)) = 0 ]
-            then
-                echo "Buzz"
-	    else
-	        echo "$i"
-	    fi
-	fi
-	((i++))
-done
+echo "1.py"
+cat /root/checker/1.py
+echo "2.py"
+cat /root/checker/2.py
+echo "3.py"
+cat /root/checker/3.py
+echo "4.py"
+cat /root/checker/4.py
+echo "5.py"
+cat /root/checker/5.py
+echo "main.sh"
+cat /root/checker/main.sh
+echo "git.sh"
+cat /root/checker/git.sh
