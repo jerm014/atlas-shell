@@ -5,4 +5,5 @@ for i in "${array[@]}"
 do
 	echo "$i"
 done
-cat 2023/18497/output_0
+copy_files(["2023/18497/output_0"])
+cat output_0
