@@ -7,6 +7,6 @@
 #checker_files_repo
 #checker_functions
 #student_repo
-ls /root/checker_files/1000
+ls /root/checker_files/1000/8632
 
 #cat /root/checker/git.sh
