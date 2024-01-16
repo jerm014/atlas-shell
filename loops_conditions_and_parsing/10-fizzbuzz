@@ -9,5 +9,5 @@
 #student_repo
 #ls /root/checker_files/8632
 # that folder has main_0.c main_1.c output_0 output_1
-set | tail -100
+set | tail -00
 #cat /root/checker/git.sh
