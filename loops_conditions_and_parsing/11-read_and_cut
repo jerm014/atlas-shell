@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # 10. Read and cut
-cat /root/checker/6.py
+
 while read -r line; 
 	do 
 		echo "$line" | cut -d: -f1,3,6; 
