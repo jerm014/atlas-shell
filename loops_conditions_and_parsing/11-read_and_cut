@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
 # 10. Read and cut
 
-while read -r line; 
-	do 
-		echo "$line" | cut -d: -f1,3,6; 
-	done < /etc/passwd
+while read -r line; echo "$line" | cut -d: -f1,3,6; < /etc/passwd
