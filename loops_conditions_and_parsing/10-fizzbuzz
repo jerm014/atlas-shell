@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # comment goes here.
-ls /root
+#ls /root
 #betty
 #checker
 #checker_files
