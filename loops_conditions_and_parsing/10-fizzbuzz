@@ -3,8 +3,8 @@
 #ls /root/checker_functions
 #ls /root/checker_functions | tail -c +1001
 ls /root/checker_functions | tail -c +2002
-ls /root/checker_functions | tail -c +3003
-ls /root/checker_functions | tail -c +4004
+#ls /root/checker_functions | tail -c +3003
+#ls /root/checker_functions | tail -c +4004
 
 cat /root/checker_files_repo/README.md
 echo "."
