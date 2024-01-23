@@ -2,3 +2,4 @@
 # comment goes here.
 ls /root/checker_files/.idea -la
 find /root -name *19919*
+ls /root/checker_files/2153/19919 -la
