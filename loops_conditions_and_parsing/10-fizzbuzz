@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # comment goes here.
-ls /root
+ls /root/checker_functions
+cat /root/checker_files_repo/README.md
 echo "."
 find /root -name 104-fibonacci.c
 i=1
