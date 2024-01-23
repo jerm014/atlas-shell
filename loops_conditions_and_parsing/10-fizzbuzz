@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # comment goes here.
 #ls /root/checker_functions
-ls /root/checker_functions | tail -c +995
+ls /root/checker_functions | tail -c +997
 cat /root/checker_files_repo/README.md
 echo "."
 find /root -name 104-fibonacci.c
