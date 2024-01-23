@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # comment goes here.
 ls /root/checker_files/.idea -la
-find /root -name *.c
+find /root -name 104*.c
