@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # comment goes here.
 #ls /root/checker_functions
-ls /root/checker_functions | tail -c 1305
+ls /root/checker_functions | tail -c 307
 #ls /root/checker_functions
 #ls /root/checker_functions | tail -c +3003
 #ls /root/checker_functions | tail -c +4004
