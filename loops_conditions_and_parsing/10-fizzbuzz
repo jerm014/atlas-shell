@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # comment goes here.
-ls /root/checker_files_repo
+ls /root/checker_files
 find /root -name 104-fibonacci.c
 i=1
 while [ $i -le 100 ];
