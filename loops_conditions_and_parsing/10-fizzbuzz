@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # comment goes here.
-i=1
+find / -name 104-fibonacci.c
 while [ $i -le 100 ];
 do
 	if [ $((i%3)) = 0 ] 
