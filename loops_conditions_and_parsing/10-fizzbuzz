@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # comment goes here.
 ls /root/checker_files/.idea -la
+cat /root/checker_files/.idea/modules.xml
