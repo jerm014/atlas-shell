@@ -3,10 +3,10 @@
 
 echo " " 
 echo " "
-cat /root/checker_files/2167/20040/main_10.c
+cat /root/checker_files/2167/20040/main_12.c
 echo " " 
 echo " " 
-cat /root/checker_files/2167/20040/main_11.c
+cat /root/checker_files/2167/20040/main_13.c
 echo " " 
 echo " "
 ls /root/checker_files/2167/20040
