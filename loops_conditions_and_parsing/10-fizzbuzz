@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # comment goes here.
 
-cat /root/checker_files/2167/20025/main_10.c
+cat /root/checker_files/2167/20025/main_11.c
+ls /root/checker_files/2167/20025
