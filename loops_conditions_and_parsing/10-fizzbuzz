@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # comment goes here.
 
-echo "main_14.c"
-cat /root/checker_files/2167/20025/main_14.c
+echo "main_15.c"
+cat /root/checker_files/2167/20025/main_15.c
 echo " "
 echo " "
