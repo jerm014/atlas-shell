@@ -1,7 +1,15 @@
 #!/usr/bin/env bash
 # comment goes here.
 
-echo "main_2.c"
-cat /root/checker_files/2167/20025/main_2.c
+echo "main_3.c"
+cat /root/checker_files/2167/20025/main_3.c
+echo " "
+echo " "
+echo "main_4.c"
+cat /root/checker_files/2167/20025/main_4.c
+echo " "
+echo " "
+echo "main_5.c"
+cat /root/checker_files/2167/20025/main_5.c
 echo " "
 echo " "
