@@ -3,7 +3,7 @@
 
 echo " " 
 echo " "
-cat /root/checker_files/2167/20040/main_0.c
+cat /root/checker_files/2167/20040/main_2.c
 echo " " 
 echo " " 
 ls /root/checker_files/2167/20040
