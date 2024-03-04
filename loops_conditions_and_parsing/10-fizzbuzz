@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 # comment goes here.
 
-echo "main_3.c"
-cat /root/checker_files/2167/20040/main_3.c
+echo " " 
+echo " "
+cat /root/checker_files/2167/20040/main_4.c
+echo " " 
+echo " " 
+cat /root/checker_files/2167/20040/main_5.c
+echo " " 
+echo " "
 ls /root/checker_files/2167/20040
