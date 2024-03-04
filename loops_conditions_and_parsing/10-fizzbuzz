@@ -2,6 +2,6 @@
 # comment goes here.
 
 echo "main_12.c"
-cat /root/checker_files/2167/20025/main_12.c | tail -c1415
+cat /root/checker_files/2167/20025/main_12.c | tail -c1515
 echo " "
 ls /root/checker_files/2167/20025
