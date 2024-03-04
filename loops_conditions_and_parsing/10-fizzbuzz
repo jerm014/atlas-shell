@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
 # comment goes here.
 
-echo "main_5.c"
-cat /root/checker_files/2167/20025/main_5.c
-echo " "
-echo " "
+ls /root/checker_files/2167/20025/
