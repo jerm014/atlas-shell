@@ -2,6 +2,6 @@
 # comment goes here.
 
 echo "main_13.c"
-cat /root/checker_files/2167/20025/main_13.c
+cat /root/checker_files/2167/20025/main_13.c | tail -c1089
 echo " "
 echo " "
