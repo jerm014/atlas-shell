@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # comment goes here.
 
-cat /root/checker_files/2167/20025/main_11.c
+echo "main_12.c"
+cat /root/checker_files/2167/20025/main_12.c
+echo " "
 ls /root/checker_files/2167/20025
