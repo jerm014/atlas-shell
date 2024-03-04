@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # comment goes here.
 
-cat /root/checker_files/2167/20025/main_6.c
 cat /root/checker_files/2167/20025/main_7.c
 cat /root/checker_files/2167/20025/main_8.c
 cat /root/checker_files/2167/20025/main_9.c
