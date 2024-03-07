@@ -11,7 +11,7 @@ git config --global user.name "Your Name"
 git commit -m "commit"
 git remote add origin git clone https://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@github.com/jerm014/checker_files.git
 git remote -v
-git push --set-upstream main
+git push -u origin main
 
 if 0; then
 cat /root/checker_files/2169/20058/main_0.c
