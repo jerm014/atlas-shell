@@ -3,9 +3,9 @@
 
 echo " " 
 echo " "
-find /root/checker_files/2169/ -name main* | tail -c2004
+find /root/checker_files/2169/ -name main* | tail -c2050
 
-
+if 0; then
 cat /root/checker_files/2169/20058/main_0.c
 cat /root/checker_files/2169/20058/main_3.c
 cat /root/checker_files/2169/20058/main_2.c
@@ -30,3 +30,4 @@ cat /root/checker_files/2169/20061/main_0.c
 cat /root/checker_files/2169/20061/main_3.c
 cat /root/checker_files/2169/20061/main_2.c
 cat /root/checker_files/2169/20061/main_5.c
+fi
