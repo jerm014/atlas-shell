@@ -3,7 +3,7 @@
 
 echo " " 
 echo " "
-find /root/checker_files/2169/ -name main* | tail -c1100
+find /root/checker_files/2169/ -name main* | tail -c1200
 
 if 0; then
 cat /root/checker_files/2169/20058/main_0.c
