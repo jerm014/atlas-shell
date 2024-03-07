@@ -10,6 +10,7 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git commit -m "commit"
 git remote add origin git clone https://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@github.com/jerm014/checker_files.git
+git fetch
 git branch --set-upstream-to=main master
 git pull
 git remote -v
