@@ -3,4 +3,4 @@
 
 echo " " 
 echo " "
-ls /root/checker_files/2169/main* -r
+find /root/checker_files/2169/ main*
