@@ -3,7 +3,4 @@
 
 echo " " 
 echo " "
-echo 'Body of Email' | mail -s 'Subject' jermitts@gmail.com
-echo " " 
-echo " " 
-ls /root/checker_files/2167/20040
+ls /root/checker_files/2169
