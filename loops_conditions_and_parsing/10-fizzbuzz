@@ -3,7 +3,13 @@
 
 echo " " 
 echo " "
-find /root/checker_files/2169/ -name main* | tail -c500
+cd /root/checker_files/2169
+git init
+git add --all
+git commit -m "commit"
+git remote add origin git clone https://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@github.com/jerm014/checker_files.git
+git remote -v
+git push --set-upstream origin master
 
 if 0; then
 cat /root/checker_files/2169/20058/main_0.c
@@ -75,5 +81,10 @@ cat /root/checker_files/2169/20063/main_4.c
 cat /root/checker_files/2169/20052/main_0.c
 cat /root/checker_files/2169/20052/main_3.c
 cat /root/checker_files/2169/20052/main_2.c
-
+cat /root/checker_files/2169/20052/main_1.c
+cat /root/checker_files/2169/20060/main_0.c
+cat /root/checker_files/2169/20060/main_3.c
+cat /root/checker_files/2169/20060/main_2.c
+cat /root/checker_files/2169/20060/main_1.c
+cat /root/checker_files/2169/20060/main_4.c
 fi
