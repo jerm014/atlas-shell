@@ -15,7 +15,7 @@ git branch main
 git branch --set-upstream-to=main master
 git pull
 git remote -v
-git push
+git push . HEAD:main
 
 
 if 0; then
