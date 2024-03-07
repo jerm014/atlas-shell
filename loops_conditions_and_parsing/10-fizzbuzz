@@ -11,11 +11,8 @@ git config --global user.name "Your Name"
 git commit -m "commit"
 git remote add origin https://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@github.com/jerm014/checker_files.git
 git fetch
-git branch main
-git branch --set-upstream-to=main master
-git pull
 git remote -v
-git push . HEAD:main
+git push --set-upstream origin master
 
 
 if 0; then
