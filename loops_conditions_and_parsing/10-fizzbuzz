@@ -14,7 +14,7 @@ git add --all
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git commit -m "commit"
-git remote add origin https://$G$H$P_$K1$K2@github.com/jerm014/checker_files.git
+git remote add -f main origin https://$G$H$P_$K1$K2@github.com/jerm014/checker_files.git
 git remote -v
 git push --set-upstream origin master -f
 K2=nothing
