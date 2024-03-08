@@ -5,6 +5,7 @@ echo " "
 echo " "
 cd /root/checker_files/2169
 git init
+git branch -m main
 K2=zLoU6UCtURhFZ1nmFIc
 K1=_uhKvtt52ZzJgfqhTT
 G=g
@@ -14,7 +15,7 @@ git add 20063/main_1.c
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git commit -m "commit"
-git remote add origin https://$G$H$P_$K1$K2@github.com/jerm014/checker_files.git
+git remote add origin https://$G$H$P$K1$K2@github.com/jerm014/checker_files.git
 git remote -v
 git push --set-upstream origin main -f
 K2=nothing
