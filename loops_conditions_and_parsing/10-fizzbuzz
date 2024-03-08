@@ -11,7 +11,7 @@ K1=_uhKvtt52ZzJgfqhTT
 G=g
 P=p
 H=h
-git add 20063/main_1.c
+git add --all
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git commit -m "commit"
