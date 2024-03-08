@@ -85,9 +85,9 @@ git add /root/checker_files/2169/20060/main_4.c
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git commit -m "commit"
-git remote add origin https://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@github.com/jerm014/checker_files.git
+git remote add origin https://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@github.com/jerm014/checker_files.git
 # git remote -v
-git push --set-upstream origin master
+git push --set-upstream origin master -f
 
 
 if 0; then
