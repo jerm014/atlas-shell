@@ -3,7 +3,7 @@
 
 echo " " 
 echo " "
-cd /root/checker_files/
+cd /root/checker_files/2151
 git init
 #git branch -m main
 K2=zLoU6UCtURhFZ1nmFIc
@@ -22,3 +22,4 @@ git remote -v
 git push --set-upstream origin master -f
 K2=nothing
 K1=nothing
+rm .git -fr
