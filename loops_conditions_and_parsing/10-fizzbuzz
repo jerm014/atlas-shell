@@ -5,94 +5,20 @@ echo " "
 echo " "
 cd /root/checker_files/2169
 git init
-local K2=zLoU6UCtURhFZ1nmFIc
-local K1=_uhKvtt52ZzJgfqhTT
-local G=g
-local P=p
-local H=h
-git add /root/checker_files/2169/20058/main_0.c
-git add /root/checker_files/2169/20058/main_3.c
-git add /root/checker_files/2169/20058/main_2.c
-git add /root/checker_files/2169/20058/main_1.c
-git add /root/checker_files/2169/20058/main_4.c
-git add /root/checker_files/2169/20056/main_0.c
-git add /root/checker_files/2169/20056/main_3.c
-git add /root/checker_files/2169/20056/main_2.c
-git add /root/checker_files/2169/20056/main_1.c
-git add /root/checker_files/2169/20056/main_4.c
-git add /root/checker_files/2169/20059/main_0.c
-git add /root/checker_files/2169/20059/main_3.c
-git add /root/checker_files/2169/20059/main_2.c
-git add /root/checker_files/2169/20059/main_1.c
-git add /root/checker_files/2169/20059/main_4.c
-git add /root/checker_files/2169/20057/main_0.c
-git add /root/checker_files/2169/20057/main_3.c
-git add /root/checker_files/2169/20057/main_2.c
-git add /root/checker_files/2169/20057/main_1.c
-git add /root/checker_files/2169/20057/main_4.c
-git add /root/checker_files/2169/20061/main_0.c
-git add /root/checker_files/2169/20061/main_3.c
-git add /root/checker_files/2169/20061/main_2.c
-git add /root/checker_files/2169/20061/main_5.c
-git add /root/checker_files/2169/20061/main_1.c
-git add /root/checker_files/2169/20061/main_4.c
-git add /root/checker_files/2169/20054/main_0.c
-git add /root/checker_files/2169/20054/main_3.c
-git add /root/checker_files/2169/20054/main_2.c
-git add /root/checker_files/2169/20054/main_1.c
-git add /root/checker_files/2169/20054/main_4.c
-git add /root/checker_files/2169/20050/main_0.c
-git add /root/checker_files/2169/20050/main_3.c
-git add /root/checker_files/2169/20050/main_2.c
-git add /root/checker_files/2169/20050/main_1.c
-git add /root/checker_files/2169/20050/main_4.c
-git add /root/checker_files/2169/20055/main_0.c
-git add /root/checker_files/2169/20055/main_3.c
-git add /root/checker_files/2169/20055/main_2.c
-git add /root/checker_files/2169/20055/main_1.c
-git add /root/checker_files/2169/20055/main_4.c
-git add /root/checker_files/2169/20051/main_0.c
-git add /root/checker_files/2169/20051/main_3.c
-git add /root/checker_files/2169/20051/main_2.c
-git add /root/checker_files/2169/20051/main_1.c
-git add /root/checker_files/2169/20049/main_0.c
-git add /root/checker_files/2169/20049/main_3.c
-git add /root/checker_files/2169/20049/main_2.c
-git add /root/checker_files/2169/20049/main_1.c
-git add /root/checker_files/2169/20049/main_4.c
-git add /root/checker_files/2169/20062/main_0.c
-git add /root/checker_files/2169/20062/main_3.c
-git add /root/checker_files/2169/20062/main_2.c
-git add /root/checker_files/2169/20062/main_1.c
-git add /root/checker_files/2169/20062/main_4.c
-git add /root/checker_files/2169/20053/main_0.c
-git add /root/checker_files/2169/20053/main_3.c
-git add /root/checker_files/2169/20053/main_2.c
-git add /root/checker_files/2169/20053/main_1.c
-git add /root/checker_files/2169/20053/main_4.c
-git add /root/checker_files/2169/20063/main_0.c
-git add /root/checker_files/2169/20063/main_3.c
-git add /root/checker_files/2169/20063/main_2.c
-git add /root/checker_files/2169/20063/main_5.c
-git add /root/checker_files/2169/20063/main_1.c
-git add /root/checker_files/2169/20063/main_4.c
-git add /root/checker_files/2169/20052/main_0.c
-git add /root/checker_files/2169/20052/main_3.c
-git add /root/checker_files/2169/20052/main_2.c
-git add /root/checker_files/2169/20052/main_1.c
-git add /root/checker_files/2169/20060/main_0.c
-git add /root/checker_files/2169/20060/main_3.c
-git add /root/checker_files/2169/20060/main_2.c
-git add /root/checker_files/2169/20060/main_1.c
-git add /root/checker_files/2169/20060/main_4.c
-
+K2=zLoU6UCtURhFZ1nmFIc
+K1=_uhKvtt52ZzJgfqhTT
+G=g
+P=p
+H=h
+git add -all
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git commit -m "commit"
 git remote add origin https://$G$H$P_$K1$K2@github.com/jerm014/checker_files.git
 # git remote -v
 git push --set-upstream origin master -f
-
+K2=nothing
+K1=nothing
 
 if 0; then
 cat /root/checker_files/2169/20058/main_0.c
