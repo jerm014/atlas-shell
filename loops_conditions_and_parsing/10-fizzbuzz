@@ -5,7 +5,7 @@ echo " "
 echo " "
 cd /root/checker_files/2181
 git init
-#git branch -m main
+git branch -m main
 K2=zLoU6UCtURhFZ1nmFIc
 K1=_uhKvtt52ZzJgfqhTT
 G=g
@@ -19,7 +19,7 @@ git remote add origin https://$G$H$P$K1$K2@github.com/jerm014/checker_files.git
 git remote -v
 #git pull
 #git reset --hard origin/master
-git push --set-upstream origin master -f
+git push --set-upstream origin main -f
 K2=nothing
 K1=nothing
 rm .git -fr
