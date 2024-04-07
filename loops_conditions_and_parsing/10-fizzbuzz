@@ -3,7 +3,7 @@
 
 echo " " 
 echo " "
-cd /root/checker_files/2181
+cd /root/checker_files/2180
 git init
 git branch -m master
 K2=zLoU6UCtURhFZ1nmFIc
