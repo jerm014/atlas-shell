@@ -17,7 +17,7 @@ git config --global user.name "Your Name"
 git commit -m "commit"
 git remote add origin https://$G$H$P$K1$K2@github.com/jerm014/checker_files.git
 git remote -v
-git push --set-upstream origin 2156 -f
+git push --set-upstream origin main -f
 K2=nothing
 K1=nothing
 rm .git -fr
