@@ -20,26 +20,26 @@ git remote -v
 git push --set-upstream origin $1-$2
 }
 
-get 2436 ShellNavigation
-get 2437 Emacs
-get 2438 vi
-get 2147 Git
-get 2019 ShellBasics
-get 2020 ShellPermissions
-get 2021 ShellIORedirectionsAndFilters
-get 2022 ShellInitFilesVariablesAndExpansions
-get 2023 ShellLoopsConditionsAndParsing
-get 2151 CHelloWorld
-get 2152 CVariablesIfElseWhile
-get 2153 CFunctionsNestedLoops
-get 2154 CMoreFunctionsMoreNestedLoops
-get 2155 CPointersArraysAndStrings
-get 2156 CMorePointersArraysAndStrings
-get 2157 CEvenMorePointersArraysAndStrings
-get 2158 CRecursion
-get 2159 CStaticLibraries
-get 2160 Cargcargv
-get 2161 CMallocFree
+# get 2436 ShellNavigation
+# get 2437 Emacs
+# get 2438 vi
+# get 2147 Git
+# get 2019 ShellBasics
+# get 2020 ShellPermissions
+# get 2021 ShellIORedirectionsAndFilters
+# get 2022 ShellInitFilesVariablesAndExpansions
+# get 2023 ShellLoopsConditionsAndParsing
+# get 2151 CHelloWorld
+# get 2152 CVariablesIfElseWhile
+# get 2153 CFunctionsNestedLoops
+# get 2154 CMoreFunctionsMoreNestedLoops
+# get 2155 CPointersArraysAndStrings
+# get 2156 CMorePointersArraysAndStrings
+# get 2157 CEvenMorePointersArraysAndStrings
+# get 2158 CRecursion
+# get 2159 CStaticLibraries
+# get 2160 Cargcargv
+# get 2161 CMallocFree
 get 2162 CMoreMallocFree
 get 2163 CPreprocessor
 get 2164 CStructuresTypedef
