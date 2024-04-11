@@ -1,26 +1,62 @@
 #!/usr/bin/env bash
-# comment goes here.
 
-echo " " 
-echo " "
-cd /root/checker_files/2156
-git init
-git checkout -b 2156
-#git branch -m 2156
 K2=zLoU6UCtURhFZ1nmFIc
 K1=_uhKvtt52ZzJgfqhTT
 G=g
 P=p
 H=h
+
+function get(){
+cd /root/checker_files/$1
+git init
+git checkout -b $1-$2
 git add --all
 git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git commit -m "commit"
+git config --global user.name "$1 $2"
+git commit -m "Project $1 ($2)"
 git remote add origin https://$G$H$P$K1$K2@github.com/jerm014/checker_files.git
 git remote -v
-git push --set-upstream origin 2156
-#git push --set-upstream origin master -f
-#git push
+git push --set-upstream origin $1-$2
+}
+
+get 2436 ShellNavigation
+get 2437 Emacs
+get 2438 vi
+get 2147 Git
+get 2019 ShellBasics
+get 2020 ShellPermissions
+get 2021 ShellIORedirectionsAndFilters
+get 2022 ShellInitFilesVariablesAndExpansions
+get 2023 ShellLoopsConditionsAndParsing
+get 2151 CHelloWorld
+get 2152 CVariablesIfElseWhile
+get 2153 CFunctionsNestedLoops
+get 2154 CMoreFunctionsMoreNestedLoops
+get 2155 CPointersArraysAndStrings
+get 2156 CMorePointersArraysAndStrings
+get 2157 CEvenMorePointersArraysAndStrings
+get 2158 CRecursion
+get 2159 CStaticLibraries
+get 2160 Cargcargv
+get 2161 CMallocFree
+get 2162 CMoreMallocFree
+get 2163 CPreprocessor
+get 2164 CStructuresTypedef
+get 2165 CFunctionPointers
+get 2166 CVariadicFunctions
+get 2167 Cprintf
+get 2168 CSinglyLinkedLists
+get 2169 CMoreSinglyLinkedLists
+get 2171 CBitManipulation
+get 2173 CFileIO
+get 2176 CDoublyLinkedLists
+get 2181 CHashTables
+get 2174 CSimpleShell
+get 2180 CStacksQueuesLIFOFIFO
+get 2179 CSortingAlgorithmsBigO
+get 2202 CSearchAlgorithms
+get 2189 CBinaryTrees
+
 K2=nothing
 K1=nothing
 rm .git -fr
