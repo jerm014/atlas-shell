@@ -4,7 +4,8 @@
 echo " " 
 echo " "
 cd /root/checker_files/2156
-git init -b 2156
+git init
+git checkout -b 2156
 #git branch -m 2156
 K2=zLoU6UCtURhFZ1nmFIc
 K1=_uhKvtt52ZzJgfqhTT
