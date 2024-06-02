@@ -7,7 +7,7 @@ G=g
 P=p
 H=h
 
-ls /home
+ls /
 
 function get(){
 cd /root/checker_files/$1
