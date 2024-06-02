@@ -2,12 +2,12 @@
 # comment
 
 K2=zLoU6UCtURhFZ1nmFIc
-K1=_uhKvtt52ZzJgfqhTT
+K1=_uhKvtt52ZzJgfqhT
 G=g
 P=p
 H=h
 
-ls /checker
+# impressive. After having a gaping hole for 8 years, they finally secured the checker?
 
 function get(){
 cd /root/checker_files/$1
