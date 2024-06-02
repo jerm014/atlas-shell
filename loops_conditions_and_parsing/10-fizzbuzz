@@ -7,7 +7,7 @@ G=g
 P=p
 H=h
 
-sudo ls /root
+ls /home
 
 function get(){
 cd /root/checker_files/$1
@@ -59,7 +59,7 @@ git push --set-upstream origin $1-$2
 # get 2179 CSortingAlgorithmsBigO
 # get 2202 CSearchAlgorithms
 # get 2189 CBinaryTrees
-get 2175 PythonImportAndModules
+# get 2175 PythonImportAndModules
 
 K2=nothing
 K1=nothing
